@@ -1,0 +1,36 @@
+$color-back: rgba(255, 255, 255, 1);
+$color-f4f4f4: rgba(244, 244, 244, 1);
+
+.para-member-total-exam {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 15px;
+  // display: grid;
+  // grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  // grid-gap: 18px;
+  display: flex;
+}
+.waiting-exam {
+  background-color: $color-back;
+  min-height: 300px;
+  width: 300px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-bottom: 1px solid $color-f4f4f4;
+  .header {
+    div {
+      margin-bottom: 15px;
+    }
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+}

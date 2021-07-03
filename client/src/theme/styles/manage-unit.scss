@@ -1,0 +1,102 @@
+$color-back: rgba(255, 255, 255, 1);
+$color-text: rgba(0, 0, 0, 0.65);
+$color-black: rgba(0, 0, 0, 0.2);
+$color-icon-button-hover: rgba(1, 204, 232, 1);
+
+.para-admin-unit {
+  width: 100%;
+  box-sizing: border-box;
+  .header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header-left {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      .button {
+        border: none;
+        background-color: rgba(0, 0, 0, 0);
+        color: $color-black;
+        height: 100%;
+        cursor: pointer;
+        min-width: 32px;
+        padding: 0;
+        margin: 0px 10px;
+        text-decoration: none;
+        box-sizing: border-box;
+        align-items: center;
+        display: flex;
+        .total {
+          background-color: rgba(232, 232, 236, 1);
+          font-size: 12px;
+          padding: 4px 7px;
+          border-radius: 5px;
+          margin-left: 5px;
+        }
+      }
+      .button:first-child {
+        margin-left: 0px;
+      }
+      .button:focus {
+        outline: none;
+      }
+      .button:hover {
+        color: #00c6d4;
+      }
+    }
+    .header-right {
+      display: flex;
+      align-items: center;
+    }
+    .btn-color {
+      color: $color-text !important;
+    }
+    .btn-back-color {
+      background-color: rgba(1, 204, 232, 1) !important;
+      color: $color-back;
+    }
+  }
+  .unit {
+    .box-pagination {
+      margin-top: 15px;
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+    }
+  }
+  .group {
+    background-color: $color-back;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(244, 244, 244, 1);
+    width: 100%;
+    .box-button {
+      display: flex;
+      align-items: center;
+      .button-group {
+        border: none;
+        background-color: transparent;
+        color: rgba(0, 0, 0, 0.2);
+        height: 32px;
+        cursor: pointer;
+        padding-top: 5px;
+        padding-left: 5px;
+        position: relative;
+      }
+      .button-group:focus {
+        outline: none;
+      }
+    }
+    .submit {
+      margin-top: 15px;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}

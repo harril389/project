@@ -1,0 +1,53 @@
+.para-learn-info {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+  .box-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    padding-bottom: 10px;
+  }
+  .box-body {
+    .box-content {
+      margin: 0 auto;
+      width: 100%;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-wrap: wrap;
+      padding: 15px 0px;
+      .label-learn {
+        width: 190px;
+        color: rgba(0, 0, 0, 0.65);
+        display: inline-block;
+      }
+      .value-learn {
+        width: calc(100% - 190px);
+        color: rgba(0, 0, 0, 0.65);
+        display: inline-block;
+      }
+    }
+    .table-content {
+      width: 100%;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-wrap: wrap;
+      padding: 15px 0px;
+      .col1-learn {
+        width: 150px;
+        color: rgba(0, 0, 0, 0.65);
+        display: inline-block;
+      }
+      .col2-learn {
+        width: calc(100% - 300px);
+        color: rgba(0, 0, 0, 0.65);
+        display: inline-block;
+        word-break: break-word;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+$color-white: rgba(255, 255, 255, 1);
+
+.member-answer {
+  background-color: $color-white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  .question {
+    margin-bottom: 10px;
+  }
+  .results {
+    .answer {
+      margin-bottom: 10px;
+    }
+  }
+}

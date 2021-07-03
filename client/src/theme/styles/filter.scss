@@ -1,0 +1,45 @@
+$color-text: rgba(0, 0, 0, 0.65);
+
+.para-filter {
+  position: relative;
+  .button {
+    border: none;
+    background-color: transparent;
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+    p {
+      margin: 0 10px 0 0;
+      color: $color-text;
+    }
+    path {
+      fill: $color-text;
+    }
+  }
+  .button:hover {
+    p {
+      color: rgba(0, 198, 212, 1);
+    }
+    path {
+      fill: rgba(0, 198, 212, 1);
+    }
+  }
+  .button:focus {
+    outline: none;
+  }
+  .main {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 18px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    z-index: 999;
+    top: 40px;
+    right: 0;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+  .main:focus {
+    outline: none;
+  }
+}

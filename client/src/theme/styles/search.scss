@@ -1,0 +1,37 @@
+.para-search {
+  width: 350px;
+  border-radius: 8px;
+  height: 36.8px;
+  background-color: white;
+
+  .form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .input {
+      flex-grow: 1;
+      border: none;
+      margin-left: 10px;
+    }
+    .input:focus {
+      outline: none;
+    }
+    .input::placeholder {
+      color: rgba(0, 0, 0, 0.2);
+    }
+    .button {
+      border: none;
+      background-color: white;
+      cursor: pointer;
+      color: rgba(0, 0, 0, 0.2);
+    }
+    .button:hover {
+      color: rgba(0, 198, 212, 1);
+    }
+    .button:focus {
+      outline: none;
+    }
+  }
+}

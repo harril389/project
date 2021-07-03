@@ -1,0 +1,189 @@
+$color-text: rgba(0, 0, 0, 0.65);
+$color-border: rgba(0, 0, 0, 0.2);
+$color-light-blue: rgba(1, 204, 232, 1);
+$color-light-blue-hover: rgba(0, 159, 182, 1);
+$color-white: rgba(255, 255, 255, 1);
+$color-btn: rgba(254, 154, 139, 1);
+$color-btn-hover: rgba(254, 145, 130, 1);
+
+.para-dialog {
+  .icon {
+    border: none;
+    background-color: transparent;
+    color: $color-border;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 32px;
+    padding-top: 5px;
+    padding-left: 5px;
+    position: relative;
+  }
+  .icon:focus {
+    outline: none;
+  }
+  .icon:hover {
+    color: $color-light-blue;
+  }
+  .button {
+    border: none;
+    background-color: $color-light-blue;
+    color: $color-white;
+    height: 32px;
+    cursor: pointer;
+    padding: 8px 20px;
+    position: relative;
+    border-radius: 8px;
+  }
+  .button:focus {
+    outline: none;
+  }
+  .button:hover {
+    background-color: $color-light-blue-hover;
+  }
+  .dialog {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color-border;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 999;
+    .dialog-border {
+      width: 400px;
+      background-color: $color-white;
+      border-radius: 8px;
+    }
+    .dialog-header {
+      height: 50px;
+      border-bottom: 1px solid $color-border;
+      line-height: 50px;
+      padding: 0px 20px;
+      text-align: left;
+    }
+    .dialog-body {
+      min-height: 80px;
+      padding: 10px 20px;
+      border-bottom: 1px solid $color-border;
+      text-align: left;
+    }
+    .dialog-footer {
+      height: 50px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 100%;
+      .button-footer {
+        background-color: $color-light-blue;
+        border: none;
+        color: $color-white;
+        height: 32px;
+        cursor: pointer;
+        border-radius: 8px;
+        padding: 8px 20px;
+        margin-right: 10px;
+      }
+      .button-footer:focus {
+        outline: none;
+      }
+      .button-footer:hover {
+        background-color: $color-light-blue-hover;
+      }
+      .btn-button {
+        background-color: $color-btn;
+      }
+      .btn-button:hover {
+        background-color: $color-btn-hover;
+      }
+    }
+  }
+}
+
+.para-dialog-form {
+  .icon-form {
+    border: none;
+    background-color: transparent;
+    color: $color-border;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 32px;
+    padding-top: 5px;
+    padding-left: 5px;
+    position: relative;
+  }
+  .icon-form:focus {
+    outline: none;
+  }
+  .icon-form:hover {
+    color: $color-light-blue;
+  }
+  .button-form {
+    border: none;
+    background-color: $color-light-blue;
+    color: $color-white;
+    height: 32px;
+    cursor: pointer;
+    padding: 8px 20px;
+    position: relative;
+    border-radius: 8px;
+  }
+  .button-form:focus {
+    outline: none;
+  }
+  .button-form:hover {
+    background-color: $color-light-blue-hover;
+  }
+  .dialog-form {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color-border;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 999;
+    .dialog-border-form {
+      width: 400px;
+      background-color: $color-white;
+      border-radius: 8px;
+    }
+    .dialog-header-form {
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 20px;
+    }
+    .dialog-body-form {
+      min-height: 80px;
+      padding: 0px 20px;
+      text-align: left;
+    }
+  }
+}
+
+.icon-pass {
+  border: none;
+  background-color: transparent;
+  color: $color-border;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-left: 5px;
+  position: relative;
+}
+.icon-pass:focus {
+  outline: none;
+}
+.icon-pass:hover {
+  color: $color-light-blue;
+}

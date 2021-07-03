@@ -1,0 +1,13 @@
+.para-member {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .member-left {
+    width: 280px;
+  }
+  .member-right {
+    width: calc(100% - 300px);
+  }
+}

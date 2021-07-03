@@ -1,0 +1,19 @@
+$color-back: rgba(255, 255, 255, 1);
+$color-text: rgba(0, 0, 0, 0.65);
+$color-black: rgba(0, 0, 0, 0.2);
+
+.para-form-unit {
+  width: 100%;
+  background-color: $color-back;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(244, 244, 244, 1);
+  .submit {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

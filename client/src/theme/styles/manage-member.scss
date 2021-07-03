@@ -1,0 +1,34 @@
+.para-manage-member {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 15px 0px;
+  .box-pagination {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+}
+.form-member {
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #f4f4f4;
+  .form-radio {
+    display: flex;
+    padding: 10px 0px;
+  }
+  .select-form {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-member {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
